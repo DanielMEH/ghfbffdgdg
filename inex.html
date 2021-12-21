@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>traductor</title>
+</head>
+<style>
+
+    article{
+        max-width: 900px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px -1px rgba(224, 224, 224, 0.945);
+        padding: 20px;
+    }
+</style>
+<body>
+
+    <article>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum nulla expedita commodi incidunt? Voluptatum omnis, suscipit enim, distinctio rerum eaque ipsum repudiandae numquam impedit placeat amet repellendus nesciunt voluptates iure odit! Veniam ducimus quis nemo in cumque cupiditate fugiat explicabo illum a recusandae eaque eum, dolore, pariatur temporibus aliquam sapiente harum sit velit exercitationem perspiciatis saepe quo? Quaerat, debitis omnis ratione voluptates molestiae animi. Laudantium fuga expedita illum, cumque odit ab hic est voluptatibus! Necessitatibus natus eum animi dicta, rerum asperiores a eveniet officiis culpa, doloremque, atque quod dolorum exercitationem! Vel magnam non, iure consequuntur facilis quia? Sed maxime maiores reprehenderit, sunt minus ratione voluptatem similique ducimus inventore error! Sequi eos repellat perspiciatis repellendus voluptatem sit non maiores rem voluptas quam labore molestiae officiis harum, obcaecati velit quas minus. Facilis vel beatae voluptatem molestiae aut repellendus quas ducimus nihil nemo, aliquam dolorum! Incidunt odit hic dolorum veniam iusto alias aliquam consectetur mollitia laborum iste porro reiciendis ad, similique rem quam vero minus omnis, ea officiis quos. Illo, aliquam nesciunt veniam, qui unde nulla error quo, consequuntur a expedita quam magnam est quidem? Error nostrum beatae cupiditate tempora ut odit, dolor modi saepe pariatur corrupti iste aperiam explicabo dolores velit repellendus, illo distinctio odio officia doloremque libero consequuntur magni. Neque, alias adipisci? Placeat sapiente voluptate earum nemo praesentium, voluptatibus consectetur? Sequi, at quasi tenetur veritatis nulla repellat nisi soluta tempora eligendi, nobis facilis aliquid ullam, rerum esse itaque a exercitationem illum corrupti nemo consectetur. Hic cum eligendi repellat alias! Ab illo a fugit, et rerum quibusdam repudiandae doloribus minima fuga molestias possimus iure? Quos ipsum explicabo nihil? Reprehenderit dicta deserunt nemo non unde, distinctio nihil, reiciendis, voluptate quae est doloribus cumque modi eius nam soluta hic voluptatem culpa quia perferendis error ut consequatur repellendus ea animi. Officiis, ab commodi, sequi itaque cupiditate modi, expedita distinctio obcaecati in temporibus eaque qui quisquam a earum at aliquam consequuntur. Non est in, quia nemo quod rerum perferendis fugiat nisi incidunt dolores ratione. Porro recusandae ad repellat adipisci. Quibusdam exercitationem necessitatibus rem hic reiciendis, commodi saepe enim. Fuga reiciendis nostrum praesentium sequi qui tenetur adipisci dolor voluptate, nisi, consequuntur eligendi eaque temporibus, libero obcaecati? Tempore debitis cum aspernatur assumenda esse inventore? Sed, culpa eveniet. Recusandae cupiditate nobis quae vel culpa itaque adipisci fugiat sit optio quas soluta modi similique unde, dicta et, quisquam voluptate porro quaerat accusantium? Veritatis esse recusandae voluptatibus vel expedita? Laboriosam, harum?
+        </p>
+    </article>
+
+    <div id="google_element"></div>
+    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+
+        function loadGoogleTranslate(){
+            new google.translate.TranslateElement("google_element")
+        }
+    </script>
+
+<button class="translate" id="es">Español</button>
+<button class="translate" id="en">English</button>
+<hr>
+<p class="lang" key="prueba1">Esto es una prueba</p>
+<p class="lang" key="prueba2">Este texto esta en español</p>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>
